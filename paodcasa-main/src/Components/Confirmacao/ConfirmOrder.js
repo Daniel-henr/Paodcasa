@@ -57,7 +57,7 @@ export default function ConfirmOrder({ route }) {
   const getEndereco = async () => {
     try {
       const response = await fetch(
-        `http://177.93.108.196:3000/api/endereco/${clienteId}`
+        `http://192.168.1.10:3000/api/endereco/${clienteId}`
       );
       if (!response.ok) {
         throw new Error("Erro ao recuperar produtos no carrinho");
@@ -73,7 +73,7 @@ export default function ConfirmOrder({ route }) {
   const getCliente = async () => {
     try {
       const response = await fetch(
-        `http://177.93.108.196:3000/api/cliente/${clienteId}`
+        `http://192.168.1.10:3000/api/cliente/${clienteId}`
       );
       if (!response.ok) {
         throw new Error("Erro ao recuperar produtos no carrinho");
@@ -121,7 +121,7 @@ export default function ConfirmOrder({ route }) {
     }
 
     try {
-      const response = await fetch("http://177.93.108.196:3000/api/pedido", {
+      const response = await fetch("http://192.168.1.10:3000/api/pedido", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -160,7 +160,7 @@ export default function ConfirmOrder({ route }) {
 
   const handleAddAddress = async (novoEndereco) => {
     try {
-      const response = await fetch("http://177.93.108.196:3000/api/endereco", {
+      const response = await fetch("http://192.168.1.10:3000/api/endereco", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -314,7 +314,7 @@ export default function ConfirmOrder({ route }) {
                   <View style={{ alignItems: "center" }}>
                     <Image
                       source={{
-                        uri: `http://177.93.108.196:3000${produto.produto.url}`,
+                        uri: `http://192.168.1.10:3000${produto.produto.url}`,
                       }}
                       style={{
                         width: 77,

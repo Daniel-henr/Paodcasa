@@ -49,7 +49,7 @@ export default function Enderecos() {
   const getEndereco = async () => {
     try {
       const response = await fetch(
-        `http://177.93.108.196:3000/api/endereco/${clienteId}`
+        `http://192.168.1.10:3000/api/endereco/${clienteId}`
       );
       if (!response.ok) {
         throw new Error("Erro ao recuperar produtos no carrinho");
@@ -86,7 +86,7 @@ export default function Enderecos() {
     alert(JSON.stringify(novoEndereco));
     return;
     try {
-      const response = await fetch("http://177.93.108.196:3000/api/endereco", {
+      const response = await fetch("http://192.168.1.10:3000/api/endereco", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

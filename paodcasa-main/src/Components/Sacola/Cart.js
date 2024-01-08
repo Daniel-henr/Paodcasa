@@ -43,7 +43,7 @@ export default function Cart() {
     console.log(clienteId);
     try {
       const response = await fetch(
-        `http://177.93.108.196:3000/api/carrinho/cliente/${clienteId}`
+        `http://192.168.1.10:3000/api/carrinho/cliente/${clienteId}`
       );
       if (!response.ok) {
         throw new Error("Erro ao recuperar produtos no carrinho");
@@ -104,7 +104,7 @@ export default function Cart() {
       const produtoId = carrinhoProdutos[index].produto.id;
 
       const response = await fetch(
-        `http://177.93.108.196:3000/api/carrinho/${clienteId}/${produtoId}`,
+        `http://192.168.1.10:3000/api/carrinho/${clienteId}/${produtoId}`,
         {
           method: "DELETE",
         }
@@ -159,7 +159,7 @@ export default function Cart() {
             <View style={{ flexDirection: "row" }}>
               <Image
                 source={{
-                  uri: `http://177.93.108.196:3000${produto.produto.url} `,
+                  uri: `http://192.168.1.10:3000${produto.produto.url} `,
                 }}
                 style={{
                   width: 80,

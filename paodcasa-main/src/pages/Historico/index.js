@@ -38,14 +38,14 @@ export default function Historico() {
   }
 
   async function getPedidos() {
-    fetch(`http://177.93.108.196:3000/api/pedido/${clienteId}`)
+    fetch(`http://192.168.1.10:3000/api/pedido/${clienteId}`)
       .then((response) => response.json())
       .then((data) => setPedidos(data))
       .catch((error) => console.error("Erro na busca de pedidos:", error));
   }
 
   async function getPedidosHistorico() {
-    fetch(`http://177.93.108.196:3000/api/pedido/historico/${clienteId}`)
+    fetch(`http://192.168.1.10:3000/api/pedido/historico/${clienteId}`)
       .then((response) => response.json())
       .then((data) => setPedidosHistorico(data))
       .catch((error) => console.error("Erro na busca de pedidos:", error));

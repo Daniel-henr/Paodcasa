@@ -25,7 +25,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "cors": "http://177.93.108.196:3000"
+      "cors": "http://192.168.1.10:3000"
     }
   }
 }

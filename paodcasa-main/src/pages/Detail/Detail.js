@@ -65,7 +65,7 @@ export default function Detail() {
   );
 
   function getProduto() {
-    fetch("http://177.93.108.196:3000/api/produto")
+    fetch("http://192.168.1.10:3000/api/produto")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Erro na solicitação GET");
@@ -91,7 +91,7 @@ export default function Detail() {
 
     try {
       const response = await fetch(
-        `http://177.93.108.196:3000/api/carrinho/cliente/${clienteId}`,
+        `http://192.168.1.10:3000/api/carrinho/cliente/${clienteId}`,
         {
           method: "POST",
           headers: {
@@ -127,7 +127,7 @@ export default function Detail() {
 
       <View style={{ position: "relative" }}>
         <Image
-          source={{ uri: `http://177.93.108.196:3000${produto.imagem[0].url}` }}
+          source={{ uri: `http://192.168.1.10:3000${produto.imagem[0].url}` }}
           style={styles.imgProduto}
         />
         <TouchableOpacity
@@ -209,7 +209,7 @@ export default function Detail() {
                 >
                   <Image
                     source={{
-                      uri: `http://177.93.108.196:3000${produto.imagem[0].url}`,
+                      uri: `http://192.168.1.10:3000${produto.imagem[0].url}`,
                     }}
                     style={styles.imgProdutos}
                   />

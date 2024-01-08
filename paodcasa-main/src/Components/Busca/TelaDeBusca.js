@@ -25,7 +25,7 @@ export default function TelaInicial() {
     setPesquisa(text);
     try {
       const response = await fetch(
-        `http://177.93.108.196:3000/api/produto/${text}`
+        `http://192.168.1.10:3000/api/produto/${text}`
       );
       if (!response.ok) {
         throw new Error("Erro na solicitação GET");
@@ -71,7 +71,7 @@ export default function TelaInicial() {
               <Image
                 style={{ width: 55, height: 45, borderRadius: 6 }}
                 source={{
-                  uri: `http://177.93.108.196:3000${produto.imagem[0].url}`,
+                  uri: `http://192.168.1.10:3000${produto.imagem[0].url}`,
                 }}
               />
               <Text style={{ marginLeft: 8, fontSize: 18, fontWeight: "400" }}>

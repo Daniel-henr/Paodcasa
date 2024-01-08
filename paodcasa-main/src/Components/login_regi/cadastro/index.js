@@ -29,7 +29,7 @@ export default function Cadastro() {
     } else if (passo === 2 && senha.trim() !== "") {
       try {
         const response = await fetch(
-          "http://177.93.108.196:3000/api/cliente/criar",
+          "http://192.168.1.10:3000/api/cliente/criar",
           {
             method: "POST",
             headers: {

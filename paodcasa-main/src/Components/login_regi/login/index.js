@@ -18,7 +18,7 @@ export default function Login() {
   const Entrar = async () => {
     try {
       const response = await fetch(
-        "http://177.93.108.196:3000/api/cliente/login",
+        "http://192.168.1.10:3000/api/cliente/login",
         {
           method: "POST",
           headers: {

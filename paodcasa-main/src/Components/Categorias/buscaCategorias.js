@@ -29,7 +29,7 @@ const ProdutosPorCategoria = ({ route }) => {
     setPesquisa(text);
     try {
       const response = await fetch(
-        `http://177.93.108.196:3000/api/produto/${text}`
+        `http://192.168.1.10:3000/api/produto/${text}`
       );
       if (!response.ok) {
         throw new Error("Erro na solicitação GET");
@@ -42,14 +42,14 @@ const ProdutosPorCategoria = ({ route }) => {
   };
 
   useEffect(() => {
-    fetch(`http://177.93.108.196:3000/api/categoria/${categoriaId}`)
+    fetch(`http://192.168.1.10:3000/api/categoria/${categoriaId}`)
       .then((response) => response.json())
       .then((data) => setNomeCategoria(data.nome))
       .catch((error) =>
         console.error("Erro na busca de nome da categoria:", error)
       );
 
-    fetch(`http://177.93.108.196:3000/api/produto/categoria/${categoriaId}`)
+    fetch(`http://192.168.1.10:3000/api/produto/categoria/${categoriaId}`)
       .then((response) => response.json())
       .then((data) => setProdutos(data))
       .catch((error) => console.error("Erro na busca de produtos:", error));
@@ -63,7 +63,7 @@ const ProdutosPorCategoria = ({ route }) => {
       >
         <View style={styles.itemContainer}>
           <Image
-            source={{ uri: `http://177.93.108.196:3000${item?.imagem[0].url}` }}
+            source={{ uri: `http://192.168.1.10:3000${item?.imagem[0].url}` }}
             style={styles.imgProdutos}
           />
           <View
@@ -128,7 +128,7 @@ const ProdutosPorCategoria = ({ route }) => {
                 <Image
                   style={{ width: 55, height: 45, borderRadius: 6 }}
                   source={{
-                    uri: `http://177.93.108.196:3000${produto.imagem[0].url}`,
+                    uri: `http://192.168.1.10:3000${produto.imagem[0].url}`,
                   }}
                 />
                 <Text
