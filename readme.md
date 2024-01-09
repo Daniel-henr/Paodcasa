@@ -1,5 +1,5 @@
-## PaodCasa - Aplicativo de Compras de Padaria
-### O projeto PaodCasa é um aplicativo desenvolvido como parte do meu projeto final no curso de Análise e Desenvolvimento de Sistemas, em colaboração com dois dev's. O Paod'Casa tem como objetivo facilitar a compra de produtos de padaria, permitindo que os clientes adquiram itens sem a necessidade de sair de casa.
+## Pao D'Casa - Aplicativo de Compras de Padaria
+### O projeto Pao D'Casa é um aplicativo desenvolvido como parte do meu projeto final no curso de Análise e Desenvolvimento de Sistemas, em colaboração com dois dev's. O Paod'Casa tem como objetivo facilitar a compra de produtos de padaria, permitindo que os clientes adquiram itens sem a necessidade de sair de casa.
 ###  Para a criação do aplicativo, empregamos o React Native no desenvolvimento do front-end. Quanto ao back-end, optamos por utilizar Next.js e Prisma, enquanto o banco de dados foi implementado utilizando MongoDB.
 
 ### A organização do nosso projeto segue a metodologia ágil Scrum. A divisão de papéis é a seguinte: Heloisa (Professora) atua como Product Owner (P.O), Mateus Alexandre como Scrum Master, Pedro Leal como Tech Leader, e os desenvolvedores incluem Daniel Henrique e Rafael Lima. As responsabilidades de qualidade (QA) são conduzidas por Erick Marques e Vladimir.
