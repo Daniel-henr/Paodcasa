@@ -22,11 +22,11 @@
 
 #### 6. Desça até a linha 53 e copie apenas o endereço IP que está dentro dos parênteses do fetch.
 
-#### 7. Em seguida, clique na lupa no canto esquerdo do seu VS Code.
+#### 7. Em seguida, clique na lupa no canto esquerdo do seu VS Code. Insira o IP copiado no código pelo endereço correspondente ao primeiro slot.
 
-#### 8. Substitua o IP copiado no código pelo primeiro slot. Em seguida, insira o seu IP no segundo slot e clique no botão à direita desse slot.
+#### 8. Insira o seu IP no segundo slot e clique no botão à direita desse slot.
 
-#### 9. Em seguida, volte ao terminal do gerenciador do banco e use o comando 'npm run dev'.
+#### 9. Volte ao terminal do gerenciador do banco e use o comando 'npm run dev'.
 
 #### 10. No terminal do projeto 'paodcasa', use o comando 'npx expo start'. Aguarde o QR code carregar, abra o aplicativo Expo Go no seu celular e escaneie o QR code para carregar o projeto.
 
