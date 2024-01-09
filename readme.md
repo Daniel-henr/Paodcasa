@@ -1,10 +1,8 @@
-# PaodCasa - Aplicativo de Compras de Padaria
-
-## O projeto PaodCasa é um aplicativo desenvolvido como parte do meu projeto final no curso de Análise e Desenvolvimento de Sistemas, em colaboração com dois amigos. O PaodCasa tem como objetivo facilitar a compra de produtos de padaria, permitindo que os clientes adquiram itens sem a necessidade de sair de casa.
-
+## PaodCasa - Aplicativo de Compras de Padaria
+### O projeto PaodCasa é um aplicativo desenvolvido como parte do meu projeto final no curso de Análise e Desenvolvimento de Sistemas, em colaboração com dois amigos. O PaodCasa tem como objetivo facilitar a compra de produtos de padaria, permitindo que os clientes adquiram itens sem a necessidade de sair de casa.
 ###  Para a criação do aplicativo, empregamos o React Native no desenvolvimento do front-end. Quanto ao back-end, optamos por utilizar Next.js e Prisma, enquanto o banco de dados foi implementado utilizando MongoDB.
 
-# Instruções de Instalação
+## Instruções de Instalação
 
 #### Para utilizar o aplicativo, é necessário ter o VS Code instalado em sua máquina, além de ter o Expo Go instalado em seu celular.
 
