@@ -2,7 +2,7 @@
 ### O projeto PaodCasa é um aplicativo desenvolvido como parte do meu projeto final no curso de Análise e Desenvolvimento de Sistemas, em colaboração com dois dev's. O Paod'Casa tem como objetivo facilitar a compra de produtos de padaria, permitindo que os clientes adquiram itens sem a necessidade de sair de casa.
 ###  Para a criação do aplicativo, empregamos o React Native no desenvolvimento do front-end. Quanto ao back-end, optamos por utilizar Next.js e Prisma, enquanto o banco de dados foi implementado utilizando MongoDB.
 
-### A organização do nosso projeto segue a metodologia ágil Scrum. A divisão de papéis é a seguinte: Heloisa (Professora) atua como Product Owner (P.O), Mateus Alexandre como Scrum Master, e os desenvolvedores incluem Daniel Henrique, Rafael Lima e Pedro Leal. As responsabilidades de qualidade (QA) são conduzidas por Erick Marques e Vladimir.
+### A organização do nosso projeto segue a metodologia ágil Scrum. A divisão de papéis é a seguinte: Heloisa (Professora) atua como Product Owner (P.O), Mateus Alexandre como Scrum Master, Pedro Leal como Tech Leader, e os desenvolvedores incluem Daniel Henrique e Rafael Lima. As responsabilidades de qualidade (QA) são conduzidas por Erick Marques e Vladimir.
 
 ## Instruções de Instalação
 
@@ -12,7 +12,7 @@
 
 #### 1. Abra o projeto no VS Code.
 
-#### 2. No VS Code, clique com o botão direito nas pastas 'paodcasa-main' e 'gerenciador-banco', respectivamente. Em seguida, escolha 'Open in Integrated Terminal'.
+#### 2. No VS Code, clique com o botão direito do mouse nas pastas 'paodcasa-main' e 'gerenciador-banco', respectivamente. Em seguida, escolha 'Open in Integrated Terminal'.
 
 #### 3. Com o terminal aberto, vá para o próximo passo. Utilize o comando 'npm install' para instalar as dependências do Node.
 
